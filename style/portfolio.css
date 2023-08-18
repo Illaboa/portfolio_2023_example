@@ -1,3 +1,5 @@
+/* 동작 */
+body, html {scroll-behavior: smooth;}
 /* 반응형 내비 최소제한 너비 설정 */
 header, main {min-width: 900px;}
 /* header */
@@ -71,23 +73,24 @@ main #profile .container .info {width: 50%; margin-bottom:18px;}
 main #profile .container .info h2 {
     margin-bottom: 30px; font-size: 1.5rem; font-weight: 700; letter-spacing: -0.04em;
 }
-main #profile .container .info dl {display: flex; flex-flow: row wrap;}
+main #profile .container .info dl {display: flex; flex-flow: row wrap; width: 600px;}
 main #profile .container .info dl > * {line-height: 40px; border-bottom: 1px dashed #ccc;}
 main #profile .container .info dl dt {width: 112px;}
 main #profile .container .info dl dd {width: calc(100% - 112px);}
 /* project */
-main .project_web1 {margin: 0 auto; margin-top: 100px;}
-main .project_web1 h1 {
-    text-align: center; font-size: 2.875rem; font-weight: 700; letter-spacing: -0.04rem;
+main #project_web1 {margin-top: 100px;}
+main #project_web1 h1 {
+    text-align: center; font-size: 2.875rem; font-weight: 700; 
+    letter-spacing: -0.04rem; margin-bottom: 50px;
 }
-main .project_web1 .link {display: flex; margin-top: 40px;}
-main .project_web1 .link a {
+main #project_web1 .link {display: flex; margin-left: 100px;}
+main #project_web1 .link a {
     padding: 20px 30px; background: #222; color: #fff;
     border-radius: 10px; margin-left: 5px;
 }
-main .project_web1 .link a:hover {filter: brightness(133%) contrast(150%);}
-main .project_web1 .link a:first-child {background-color: #1F78FC; margin-left: 0;}
-main .project_web1 .project_info {margin: 20px 0;}
-main .project_web1 .project_info p {line-height: 30px;}
-main .project_web1 .preview {text-align: center;}
-main .project_web1 .preview img {}
+main #project_web1 .link a:hover {filter: brightness(130%) contrast(150%);}
+main #project_web1 .link a:first-child {background-color: #1F78FC; margin-left: 0;}
+main #project_web1 .project_info {margin: 20px 100px;}
+main #project_web1 .project_info p {line-height: 30px;}
+main #project_web1 .preview {text-align: center;}
+main #project_web1 .preview img {width: 90%;}
